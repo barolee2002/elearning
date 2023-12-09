@@ -1,0 +1,38 @@
+
+* {
+    box-sizing: border-box;
+}
+.page-content{
+    margin: 64px 98px;
+}
+.search-page .search-result{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap : 24px 24px;
+
+}
+.result-item{
+    
+
+}
+.result-item .item-image {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius : 16px;
+    
+}
+.sub-title{
+    font-size: 20px;
+}
+.title:hover {
+    color : #4096ff;
+
+
+}
+.title {
+    font-size: 28px;
+    font-weight: 700;
+}
+.view-btn{
+    padding: 8px 12px;
+}
